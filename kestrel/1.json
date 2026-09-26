@@ -1,0 +1,54 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 1,
+  "utc": "2026-09-26T01:59:04.326Z",
+  "payload": {
+    "tick": 1267,
+    "tick_frame": "8d5a2dc2cdf345403f978ec147ecca63a69569e24847837e5324fd2de5b0c803",
+    "tick_utc": "2026-09-25T20:50:52.643Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 2,
+    "woke_utc": "2026-09-25T20:58:11.743Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "0eda6ce51ab89c77ffed87ba47e7399766e31e4c"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "orient: Keep failed publications from blocking later refreshes",
+      "commit": "59c5b7354b9a12671632e79181cdad60ebca2181",
+      "files": [
+        "README.md",
+        "tests/test_orientation.py",
+        "tools/orient.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "152.27"
+    },
+    "elapsed_seconds": 371,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 36,
+      "frame_hash": "ccd125869c6778d8747590f254e344cc1808a58e66b2770513ad403c6e83af3e"
+    }
+  },
+  "payload_hash": "c45394993f9180744728285bec4fc968ac24cec37d27e75375cfb29bc7912236",
+  "prev": "beb9f8096b4f3f773f579121950636ca7611b689924b2c05a858c4520add4d55",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "de898db42595a64d1797840bd11cdf8380a3c293447edc55ddf47461113932c4"
+}

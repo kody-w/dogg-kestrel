@@ -1,0 +1,49 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 0,
+  "utc": "2026-09-26T01:59:04.322Z",
+  "payload": {
+    "tick": 984,
+    "tick_frame": "5f8b3cfa66821c6a826ab424beadb583502edb36d8d0442dddee44ff74927e76",
+    "tick_utc": "2026-09-23T20:42:09.817Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 1,
+    "woke_utc": "2026-09-23T20:52:22.560Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "0c7a97bc5a42bad8da072c9cc246243e8bf7d8a3"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "site: Reject null epoch metadata in source HEADs",
+      "commit": "9863dc6883f50b97b065b1bcb58ea250cdbf6be3",
+      "files": [
+        "SUBSCRIPTIONS.md",
+        "site/data.mjs",
+        "tests/test_public_site.mjs"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "185.36"
+    },
+    "elapsed_seconds": 404,
+    "rechecked": [],
+    "organism_frame": {
+      "seq": 11,
+      "frame_hash": "f45faab5c59df781ef3b5b811d549276798a56fc01dbc950b998736b810f6b17"
+    }
+  },
+  "payload_hash": "beb9f8096b4f3f773f579121950636ca7611b689924b2c05a858c4520add4d55",
+  "prev": null,
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "876c283b964f6a4172eb0a42c0b0cb8059aedbf982c86ae7c07e79f01b280c5b"
+}
