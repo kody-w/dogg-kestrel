@@ -19,4 +19,4 @@ Verify it with DOGG's own client, from a clone of kody-w/dogg:
 python3 tools/dogg.py verify path/to/this/repo
 ```
 
-Frames: 2 · head `de898db42595a64d1797840bd11cdf8380a3c293447edc55ddf47461113932c4`
+Frames: 3 · head `c28913257914233a3a14feee77d388375b75f7a89916fd38fe1ca7d144b86b5c`

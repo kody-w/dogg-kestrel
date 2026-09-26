@@ -1,0 +1,58 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 2,
+  "utc": "2026-09-26T21:38:23.569Z",
+  "payload": {
+    "tick": 1400,
+    "tick_frame": "d4c319a342090115f43d614be2afbce076a0a1e57a8ae9a6d790af8d0762fa3a",
+    "tick_utc": "2026-09-26T21:07:40.852Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 3,
+    "woke_utc": "2026-09-26T21:22:13.039Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "c03609caed4c8dd09c9a32a54a36a3336d3c255d"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "register: Deduplicate field names within mission imports",
+      "commit": "68ed0b40949b8cc3a0ef85ecd298c2172fbc8ffe",
+      "files": [
+        "PROTOCOL.md",
+        "tests/test_register.py",
+        "tools/register.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "176.83"
+    },
+    "elapsed_seconds": 1193,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "pending"
+      },
+      {
+        "cycle": 2,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 92,
+      "frame_hash": "6b95b569bbcbc3dfa6b175416b0f5418a172fb8a5665df437b1719af6384697e"
+    }
+  },
+  "payload_hash": "e81df4b8653c0619c0a0e4ffaa39125f210172b79237e4b8f1edb733126c50d8",
+  "prev": "c45394993f9180744728285bec4fc968ac24cec37d27e75375cfb29bc7912236",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "c28913257914233a3a14feee77d388375b75f7a89916fd38fe1ca7d144b86b5c"
+}
