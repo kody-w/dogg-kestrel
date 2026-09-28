@@ -1,0 +1,54 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 3,
+  "utc": "2026-09-28T17:34:48.212Z",
+  "payload": {
+    "tick": 1540,
+    "tick_frame": "f46410c8b700afbfccdf1d94961671990b0ad230ca9785f7eb0deeeec09d6af8",
+    "tick_utc": "2026-09-27T22:10:41.083Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 4,
+    "woke_utc": "2026-09-27T22:19:57.689Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "255b3a0a2e4df0bb33c7793b80f7242998086ebf"
+    },
+    "verdict": "no-mutation",
+    "proposal": null,
+    "immune": {
+      "passed": 0,
+      "total": 0
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": ""
+    },
+    "elapsed_seconds": 2705,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "pending"
+      },
+      {
+        "cycle": 2,
+        "status": "pending"
+      },
+      {
+        "cycle": 3,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 101,
+      "frame_hash": "2b5da0d132be160af8066a43454b375d2795ce444667bb1282694d8f28d54873"
+    }
+  },
+  "payload_hash": "9be91b534a1f3309a4c66de1652769e83235d5e19cc59b01170eb0a2028b7a0a",
+  "prev": "e81df4b8653c0619c0a0e4ffaa39125f210172b79237e4b8f1edb733126c50d8",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "3ee2b04a197e1dd820d3208f145ec71b252c25feb8bfb8725555d33683dec23a"
+}

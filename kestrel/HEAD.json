@@ -1,8 +1,8 @@
 {
-  "count": 3,
+  "count": 4,
   "sealed_epochs": 0,
   "epoch_size": 288,
   "stream_id": "kestrel:@kody-w/dogg-kestrel",
-  "head_frame": "c28913257914233a3a14feee77d388375b75f7a89916fd38fe1ca7d144b86b5c",
-  "updated": "2026-09-26T21:38:23.571Z"
+  "head_frame": "3ee2b04a197e1dd820d3208f145ec71b252c25feb8bfb8725555d33683dec23a",
+  "updated": "2026-09-28T17:34:48.216Z"
 }
