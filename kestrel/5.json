@@ -1,0 +1,62 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 5,
+  "utc": "2026-09-30T22:59:30.900Z",
+  "payload": {
+    "tick": 1919,
+    "tick_frame": "6b3285721300cc99e0cf0596eae7b98a75a4eb41ec0428d818a0471188dbfa1b",
+    "tick_utc": "2026-09-30T22:45:35.997Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 6,
+    "woke_utc": "2026-09-30T22:54:04.840Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "861718b06073f929cd69477089a7cb3c3a17d8a6"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "sigil: Preserve threshold codes through text round trips",
+      "commit": "fe5e0355ab28a2cd61df78fa40aa55a422f5970c",
+      "files": [
+        "PROTOCOL.md",
+        "tests/test_sigil.py",
+        "tools/sigil.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "166.65"
+    },
+    "elapsed_seconds": 337,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      }
+    ],
+    "organism_frame": {
+      "seq": 202,
+      "frame_hash": "71cbbe76b2446a3a67e1c46b93c338a5853b8c44be12e49d394b882eb9c6eede"
+    }
+  },
+  "payload_hash": "c5f3834e33d6edc174c783366dbede473c9460a57934df9f4ebbd8f65f0943ad",
+  "prev": "d09b5f9992a18a6ca526bf151dbbc65e95a80fbafc7b630779b625fc5c763830",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "841186d11db9da868d33c2eb49ecdfa7e98525084a8a25a9c06cb5d1cc0b5d06"
+}
