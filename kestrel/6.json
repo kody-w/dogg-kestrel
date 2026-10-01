@@ -1,0 +1,66 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 6,
+  "utc": "2026-10-01T23:14:31.013Z",
+  "payload": {
+    "tick": 2036,
+    "tick_frame": "a7bc56d45c821c7f1cda41f7ed974e5bcba7ebf1d284ecab3b677fe8b5e48c17",
+    "tick_utc": "2026-10-01T23:05:27.731Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 7,
+    "woke_utc": "2026-10-01T23:10:22.410Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "f4e7717007d832fab84e0f878d8562c92e0b37f5"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "site: Count null field additions and removals",
+      "commit": "87612eca92fd95fbf1ef1a6de59a3c5186c3b472",
+      "files": [
+        "SUBSCRIPTIONS.md",
+        "site/data.mjs",
+        "tests/test_public_site.mjs"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "141.59"
+    },
+    "elapsed_seconds": 260,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      },
+      {
+        "cycle": 6,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 209,
+      "frame_hash": "0685e1ddd6941c0a6b1090c7275dd5625e3e15ccfe369a1fbfd8e581c1582d41"
+    }
+  },
+  "payload_hash": "ddd91f399bc1117f81aaf640d87536962d1614b7f721481ffd6dc5b7ab19bf7e",
+  "prev": "c5f3834e33d6edc174c783366dbede473c9460a57934df9f4ebbd8f65f0943ad",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "b458f6c56427cce2d41525ebf87269dec1d3028876b25663db45eafb0e4f3178"
+}
