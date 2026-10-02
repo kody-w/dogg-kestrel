@@ -1,0 +1,70 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 7,
+  "utc": "2026-10-02T23:19:18.831Z",
+  "payload": {
+    "tick": 2173,
+    "tick_frame": "592a93002c835023e2574364742cfb0e3c3168cf119142591640f5e7da134f61",
+    "tick_utc": "2026-10-02T23:08:30.493Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 8,
+    "woke_utc": "2026-10-02T23:15:00.115Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "34e3cdd3b21474e5f0e61c8aed7fcf5a1693a1e0"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "book: Escape text in printable chant books",
+      "commit": "6b72009a26d8f4a55010ca5df6c8cfa1707e6a91",
+      "files": [
+        "README.md",
+        "tests/test_chants.py",
+        "tools/dogg.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "167.78"
+    },
+    "elapsed_seconds": 267,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      },
+      {
+        "cycle": 6,
+        "status": "pending"
+      },
+      {
+        "cycle": 7,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 216,
+      "frame_hash": "09775349232b5e027819dfee29798fe2e36684f025c485f58b3f4e160f3eb1de"
+    }
+  },
+  "payload_hash": "49f2b1f91c1fa17b7ff73bbe74f10364fbfce57b90f32234a4fd284e5c36bca5",
+  "prev": "ddd91f399bc1117f81aaf640d87536962d1614b7f721481ffd6dc5b7ab19bf7e",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "d72e7de25c0946bf10979133097e23ba71f3c08c9e7b555f0147e8f02e527130"
+}
