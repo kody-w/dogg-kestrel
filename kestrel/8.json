@@ -1,0 +1,73 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 8,
+  "utc": "2026-10-03T23:23:19.980Z",
+  "payload": {
+    "tick": 2314,
+    "tick_frame": "28caf770b78371bf03806ff1725a30a629ef262547f91c75e29d60bc1da41633",
+    "tick_utc": "2026-10-03T23:10:49.647Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 9,
+    "woke_utc": "2026-10-03T23:19:48.064Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "210cbcc31f24694cb90049025ddede69ea9b2c08"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "world: Preserve zero-valued grid carbon measurements",
+      "commit": "726d38a02dd684d78c68d698e8fb833f033cbb3b",
+      "files": [
+        "tests/test_world.py",
+        "tools/world.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "148.01"
+    },
+    "elapsed_seconds": 220,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      },
+      {
+        "cycle": 6,
+        "status": "pending"
+      },
+      {
+        "cycle": 7,
+        "status": "pending"
+      },
+      {
+        "cycle": 8,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 227,
+      "frame_hash": "bb81dfac29e10f119aefb944e2010aba208d7633daee21973ec15cd421d7c590"
+    }
+  },
+  "payload_hash": "0ca85aa435b53cf56e89c4e1f1d49eb039dc51f4354e919d2cbdb11c0f46de73",
+  "prev": "49f2b1f91c1fa17b7ff73bbe74f10364fbfce57b90f32234a4fd284e5c36bca5",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "f7f6495335ebfc36a8ccf6eeb2578ba9b1adb53d67186f7b405330a2d6eff67a"
+}
