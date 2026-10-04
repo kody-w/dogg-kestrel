@@ -1,0 +1,77 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 9,
+  "utc": "2026-10-04T23:28:07.923Z",
+  "payload": {
+    "tick": 2455,
+    "tick_frame": "59a49b72e5d39d2115d6e529d6cac192803d7ef86c13910d13ec915cb79ae228",
+    "tick_utc": "2026-10-04T23:21:13.592Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 10,
+    "woke_utc": "2026-10-04T23:23:50.214Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "1904eecc940900d231b8c3c932bf18730a38d196"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "notary: Reject malformed CLI arguments before appending",
+      "commit": "1d87126bb5b865b742f43a416b4a1c9752318774",
+      "files": [
+        "tests/test_notarize.py",
+        "tools/notarize.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "161.07"
+    },
+    "elapsed_seconds": 266,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      },
+      {
+        "cycle": 6,
+        "status": "pending"
+      },
+      {
+        "cycle": 7,
+        "status": "pending"
+      },
+      {
+        "cycle": 8,
+        "status": "pending"
+      },
+      {
+        "cycle": 9,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 234,
+      "frame_hash": "46a63ba99dad832f6501858e16ef9efe54964465a87a620590814dfc39ed80c9"
+    }
+  },
+  "payload_hash": "9c7661c47aee5b929150c36f0f05ff65ae11be390e115fe931f61aedc7fe028b",
+  "prev": "0ca85aa435b53cf56e89c4e1f1d49eb039dc51f4354e919d2cbdb11c0f46de73",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "4ed8dad3384cbe2562054dae0dec57a8583bc11ce30e066a02b782967d930a09"
+}
