@@ -1,0 +1,81 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 10,
+  "utc": "2026-10-05T23:34:29.025Z",
+  "payload": {
+    "tick": 2595,
+    "tick_frame": "bc0d601f2adfb2e18004cadff1a1b1fa0489f118036d5dc92b7b6f02ef449e15",
+    "tick_utc": "2026-10-05T23:24:38.714Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 11,
+    "woke_utc": "2026-10-05T23:28:42.327Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "1248ba86370e3f3c4be76904805614ebd596e20a"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "witness: Reject path-like aliases before appending",
+      "commit": "74b1ec537f9500cfbf96cdc0f19c578173e65c41",
+      "files": [
+        "tests/test_witness.py",
+        "tools/witness.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "222.83"
+    },
+    "elapsed_seconds": 359,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      },
+      {
+        "cycle": 6,
+        "status": "pending"
+      },
+      {
+        "cycle": 7,
+        "status": "pending"
+      },
+      {
+        "cycle": 8,
+        "status": "pending"
+      },
+      {
+        "cycle": 9,
+        "status": "pending"
+      },
+      {
+        "cycle": 10,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 242,
+      "frame_hash": "eb20c137ed5fc54f46c3802df09321a595b88e783755a1131494efe29ed63c21"
+    }
+  },
+  "payload_hash": "ff84a95f73bcf78136408216299d7176eb756fe511d4e69017668dd0c33cbf16",
+  "prev": "9c7661c47aee5b929150c36f0f05ff65ae11be390e115fe931f61aedc7fe028b",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "c076c6070d5c0312f28d0f83a0e45053839e78aaa9ab82e245bf7f57e4f7e683"
+}
