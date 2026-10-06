@@ -1,0 +1,85 @@
+{
+  "spec": "rapp/1",
+  "kind": "kestrel.cycle",
+  "stream_id": "kestrel:@kody-w/dogg-kestrel",
+  "seq": 11,
+  "utc": "2026-10-06T23:39:42.769Z",
+  "payload": {
+    "tick": 2735,
+    "tick_frame": "8655fab60a11d5bb7591047df0c9aabdc91c61e2d77f2f667501f2bcd6af54dc",
+    "tick_utc": "2026-10-06T23:28:45.851Z",
+    "organism": "rappid:@rapp-projects/kestrel:8a85d9c2cb7c2bfdaa648bc061cf7d327ce9ccf2dc70e45640371ed3713d0705",
+    "cycle": 12,
+    "woke_utc": "2026-10-06T23:34:59.510Z",
+    "territory": {
+      "repo": "kody-w/dogg",
+      "branch": "main",
+      "base": "23fecfe22605f98ad05bb178d68c1b4a4af56885"
+    },
+    "verdict": "accepted",
+    "proposal": {
+      "subject": "orient: Repair invalid cached generation timestamps",
+      "commit": "9f802c60281ca001c443a97aad9f4c939226b8fa",
+      "files": [
+        "tests/test_orientation.py",
+        "tools/orient.py"
+      ]
+    },
+    "immune": {
+      "passed": 7,
+      "total": 7
+    },
+    "mind": {
+      "model": "gpt-6-astra",
+      "ai_credits": "203.18"
+    },
+    "elapsed_seconds": 292,
+    "rechecked": [
+      {
+        "cycle": 1,
+        "status": "adopted"
+      },
+      {
+        "cycle": 2,
+        "status": "adopted"
+      },
+      {
+        "cycle": 3,
+        "status": "adopted"
+      },
+      {
+        "cycle": 6,
+        "status": "pending"
+      },
+      {
+        "cycle": 7,
+        "status": "pending"
+      },
+      {
+        "cycle": 8,
+        "status": "pending"
+      },
+      {
+        "cycle": 9,
+        "status": "pending"
+      },
+      {
+        "cycle": 10,
+        "status": "pending"
+      },
+      {
+        "cycle": 11,
+        "status": "pending"
+      }
+    ],
+    "organism_frame": {
+      "seq": 249,
+      "frame_hash": "2c00430a0cd95dbc25e6e6b44ffaf66d91ed9018097ab6e76c2781715df1166f"
+    }
+  },
+  "payload_hash": "fd35e1c1375595c8d0e9faa7c982e594779a459ce95518cd268aa185aea12cc4",
+  "prev": "ff84a95f73bcf78136408216299d7176eb756fe511d4e69017668dd0c33cbf16",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "63f24fc7180800648767377374c2b4097cc719a8b39adea8a73cc036444a3b74"
+}
